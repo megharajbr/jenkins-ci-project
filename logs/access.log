@@ -1,0 +1,10 @@
+• Successful Page Visit (200 OK): Tracks a user successfully loading the homepage.
+192.168.1.10 - - [11/Nov/2026:10:15:30 +0000] "GET /index.html HTTP/1.1" 200 4523
+• Resource Not Found (404 Error): Logs a broken link or a user trying to access a missing page.
+203.0.113.5 - - [11/Nov/2026:10:18:12 +0000] "GET /old-pricing-page.php HTTP/1.1" 404 1245
+• Form Submission (201 Created): Captures a user submitting data, such as creating a new account profile.
+198.51.100.42 - - [11/Nov/2026:10:20:45 +0000] "POST /api/v1/users HTTP/1.1" 201 189
+• Redirected Traffic (301 Moved Permanently): Shows a user being automatically forwarded to a new website URL.
+192.0.2.1 - - [11/Nov/2026:10:22:05 +0000] "GET /about-us HTTP/1.1" 301 0
+• Server Side Error (500 Internal Error): Flags a backend crash, database timeout, or code failure.
+198.51.100.77 - - [11/Nov/2026:10:25:19 +0000] "GET /checkout HTTP/1.1" 500 532

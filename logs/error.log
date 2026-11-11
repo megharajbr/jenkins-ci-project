@@ -1,0 +1,4 @@
+• 500 Internal Server Error: A general-purpose error message indicating that the website's server encountered an unexpected condition that prevented it from fulfilling the request.
+• 403 Forbidden: This HTTP status code means the server understands the user's request, but the user does not have the necessary access permissions to view the content.
+• 401 Unauthorized: Similar to a 403 error, this specifically implies that the requested resource requires valid authentication credentials (like a login or API key) which were missing or incorrect.
+• Blue Screen of Death (BSOD): A critical system error displayed by Windows operating systems, officially known as a stop error, which occurs when the system crashes due to hardware failure or low-level software conflicts.
